@@ -1,0 +1,2731 @@
+html{
+    overflow-x: hidden !important;
+}
+
+
+
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section starts here */
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 14vh;
+}
+
+
+.img-go{
+    width: 156px;
+    height: auto;
+}
+.navbar ul li{
+    display: inline-block;
+    font-size: 23px;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.navbar ul li a:hover{
+    color: #007bff;
+}
+
+.icon-go i{
+    font-size: 21px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.pere{
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Gat-sood{
+    font-family: "Roboto", sans-serif;
+    margin-left: 27px;
+    font-size: 25px;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* header section ends here */
+
+
+/* Welcome section starts here  */
+
+
+.Welcome-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.Welcome-container h5{
+    color: #2b70fa;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Mange-it{
+    font-size: 62px;
+    line-height: 70px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    width: 63%;
+    height: auto;
+}
+
+
+
+.Hanky{
+    font-size: 23px;
+    line-height: 28px;
+    color: #505056;
+    width: 66%;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background: #0e1133;
+    color: #fff;
+    line-height: 40px;
+    padding: 6px 23px;
+    border-radius: 6px;
+    border: 2px solid #0e1133;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #505056;
+}
+
+.btn-go{
+    line-height: 40px;
+    padding: 6px 23px;
+    border-radius: 6px;
+    border: 2px solid #0e1133;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: 0.7s;
+}
+
+.btn-go:hover{
+    background-color: #0e1133;
+    color: #fff;
+}
+
+.Download-go{
+    position: relative;
+}
+
+.color-red{
+    background-color: red;
+    width: 654px;
+    height: 654px;
+    border-radius: 100%;
+    margin-top: 63px;
+    text-align: center;
+}
+
+.Phone-img{
+    width: 384px;
+    height: auto;
+    /* padding: initial; */
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    margin: 0 auto;
+}
+
+.food-img{
+    position: absolute;
+    top: 28%;
+    width: 33%;
+    left: 82%;
+    height: auto;
+}
+
+
+
+/* Designed section starts here  */
+
+
+#main-con{
+    background: #eef1f6;
+    position: relative;
+    background-image: url(./img/back-3.png);
+    background-position: 92% 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 77vh;
+    width: 100%;
+}
+
+.Designed-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Des-pere{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+    font-size: 44px;
+    line-height: 54px;
+    padding-top: 129px;
+    text-align: center;
+}
+
+.gned-good{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.reted-icon{
+    background-color: #fff;
+    width: 359px;
+    padding-top: 56px;
+    height: 359px;
+    margin: 38px;
+    text-align: center;
+    padding: 50px 30px 43px;
+    position: relative;
+}
+
+
+.boon-icon{
+    width: 100px;
+    padding: 30px;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 70px;
+    background: linear-gradient(135deg, rgb(132, 188, 250) 0%, rgb(43, 112, 250) 100%);
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+    color: #fff;
+}
+
+.Sear-ing{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 33px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+    margin: 0px;
+}
+
+
+.Muck-er{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+    margin: 0px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.reted-icon:hover{
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+}
+
+
+.one{
+    position: absolute;
+    right: 33%;
+    top: 11%;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    background: #2b70fa;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px 0px rgb(14 17 51 / 10%);
+    line-height: 28px;
+    color: #fff;
+}
+
+
+.two-pei{
+
+
+}
+
+.all_god{
+    background: linear-gradient(135deg, rgb(247, 184, 175) 0%, rgb(248, 69, 45) 100%);
+    width: 100px;
+    padding: 30px;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+    color: #fff;
+}
+
+.two{
+    background: #f8452d;
+    position: absolute;
+    right: 33%;
+    top: 11%;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px 0px rgb(14 17 51 / 10%);
+    line-height: 28px;
+    color: #fff;
+}
+
+
+.betery{
+    background: linear-gradient(135deg, rgb(160, 234, 194) 0%, rgb(49, 195, 105) 100%);
+    width: 100px;
+    padding: 30px;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+    color: #fff;
+}
+
+.the{
+    background: #31c369;
+    position: absolute;
+    right: 33%;
+    top: 11%;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px 0px rgb(14 17 51 / 10%);
+    line-height: 28px;
+    color: #fff;
+}
+
+.mobile{
+    background: linear-gradient(135deg, rgb(216, 170, 255) 0%, rgb(155, 44, 250) 100%);
+    width: 100px;
+    padding: 30px;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+    color: #fff;
+}
+
+.for{
+    background: #9b2cfa;
+    position: absolute;
+    right: 33%;
+    top: 11%;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px 0px rgb(14 17 51 / 10%);
+    line-height: 28px;
+    color: #fff;
+}
+/* Designed section ends here  */
+
+
+
+/* Settings section starts here  */
+
+
+.settings-container{
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-con h6{
+    font-size: 17px;
+    font-weight: 500;
+    color: #2b70fa;
+    margin-bottom: -4px;
+}
+
+
+.let{
+    font-size: 39px;
+    line-height: 54px;
+    margin-bottom: -7px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+}
+
+.btn-boy{
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #2b70fa;
+    padding: 2px 30px;
+    font-size: 19px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+    background-color: #2b70fa;
+}
+
+.btn-boy:hover{
+    background-color: transparent;
+    color: #505056;
+}
+
+.car{
+    font-size: 23px;
+    line-height: 28px;
+    padding-bottom: 15px;
+    color: #505056;
+    width: 64%;
+    margin: 0px;
+    height: auto;
+}
+
+.text-con{
+    margin-left: 77px;
+}
+
+
+.ba-img{
+    width: 108%;
+    height: auto;
+}
+
+
+
+ /* Settings section ends here  */
+
+
+
+ /* Stage reporting starts here  */
+
+
+ .Stage-he{
+    overflow: hidden;
+    z-index: 15;
+    background: url(./img/back-5.jpg);
+    padding-top: 82px;
+    padding-bottom: 82px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    height: 92vh;
+    width: 100%;
+}
+
+.reporting-container{
+    margin-left: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.qury-ge{
+    margin-left: 63px;
+}
+
+ 
+.qury-ge h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.qer-ies{
+    font-size: 39px;
+    line-height: 54px;
+    margin-bottom: -7px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+}
+
+.nicked{
+    font-size: 23px;
+    line-height: 28px;
+    padding-bottom: 15px;
+    color: #505056;
+    width: 64%;
+    margin: 0px;
+    height: auto;
+}
+
+.chik i{
+    height: 31px;
+    width: 32px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
+    color: #fff;
+    font-size: 14px;
+    padding: 4px;
+    margin-left: 400px;
+    position: absolute;
+    top: 9px;
+    left: -61%;
+}
+
+
+
+
+
+.care{
+    font-size: 25px;
+    line-height: 54px;
+    margin-bottom: -7px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+}
+
+.mucker{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #505056;
+    height: auto;
+    width: 94%;
+}
+
+
+
+
+.solid i{
+    background: #f8452d;
+    height: 31px;
+    width: 32px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px;
+    margin-right: 11px;
+}
+
+
+.sync i{
+    background: #31c369;
+    height: 31px;
+    width: 32px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px;
+    margin-right: 11px;
+    position: absolute;
+    top: 46%;
+    left: -7%;
+}
+
+
+.mate i{
+    background: #9b2cfa;
+    height: 31px;
+    width: 32px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px;
+    margin-right: 11px;
+}
+
+.min-btn {
+    background: transparent;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0px 39px;
+    font-size: 19px;
+    line-height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+             
+}
+
+
+.min-btn:hover{
+    color: #fff;
+    border: 2px solid #e7eaef;
+    background-color: #2b70fa;
+
+}
+
+
+.time-good{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    gap: 56px;
+}
+
+
+.left-img img{
+    width: 78%;
+    margin-left: 375px;
+    height: auto;
+}
+
+
+
+ 
+ /* Stage reporting ends here  */
+
+
+
+
+ /* jason Response section starts here  */
+
+
+ .jason-container{
+    background-image: url(./img/back-6.png);
+    width: 100%;
+    height: 50vh;
+    background-image: url(./img/back-6.png);
+    width: 100%;
+    height: 47vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.good-img{
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    width: 14%;
+}
+
+ .Response h4{
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-bottom: 8px;
+ }
+
+
+ .Ail{
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+
+ .Hary{
+    font-size: 23px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    width: 765px;
+    height: auto;
+    margin: 0 auto;
+ }
+
+ .starts{
+    color: #ffb848;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+ }
+
+
+  /* jason Response section ends here  */
+
+
+
+  /* Meet section starts here  */
+
+
+.Meet-container{
+    height: 52vh;
+    width: 100%;
+}
+
+
+.our{
+    font-size: 44px;
+    line-height: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin-bottom: 13px;
+    text-align: center;
+    margin-top: 137px;
+}
+
+.style{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.mune-btn{
+    background: transparent;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0px 39px;
+    font-size: 15px;
+    line-height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+    margin-top: 40px;
+}
+
+.Model-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mune-btn:hover{
+    color: #fff;
+    border: 2px solid #e7eaef;
+    background-color: #2b70fa;
+}
+
+
+.code-bok img{
+    width: 124%;
+    height: auto;
+}
+
+.part-for img{
+    width: 124%;
+    height: auto;
+}
+
+
+.Solut-boy img{
+    width: 124%;
+    height: auto;
+}
+
+.Test-go img{
+    width: 124%;
+    height: auto;
+}
+
+.Evb{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.CeF{
+    font-size: 15px;
+    color: #81818d;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Team-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+    /* Meet section ends here  */
+
+
+
+    /* Choose section starts here  */
+
+
+    .choosse-container{
+        width: 100%;
+        height: 73vh;
+        background: #eef1f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Layoits-team{
+        width: 100%;
+        height: 85vh;
+        background: #eef1f6;
+        padding-top: 20px;
+    }
+    
+
+    .Cho-ose{
+        font-size: 44px;
+        line-height: 54px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: #0e1133;
+        margin-bottom: 13px;
+        margin-top: 137px;
+        text-align: center;
+    }
+
+
+    .lyou-ts{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #505056;
+        margin-bottom: 33px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Different-for {
+        background: #fff;
+        padding: 40px;
+        width: 18%;
+        height: 55%;
+        margin: 20px;
+        border-radius: 6px;
+        position: relative;
+        transition: all 0.3s ease-out 0s;
+    }
+
+    .Different-for:hover{
+        box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%);
+    }
+
+    .spe-ed{
+        font-size: 27px;
+        font-weight: 500;
+        margin-bottom: 17px;
+    }
+
+    .said-to{
+        font-size: 37px;
+        color: #0e1133;
+        font-weight: bold;
+    }
+
+    .hea-byi{
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #505056;
+        margin-top: 18px;
+        border-bottom: 2px solid black;
+        padding-bottom: 20px;
+    }
+
+    .aro-und{
+        font-size: 20px;
+        color: #0e1133;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+
+
+    .mine-goood i{
+        width: 42px;
+        height: 42px;
+        font-size: 21px;
+        text-align: center;
+        line-height: 26px;
+        border-radius: 50%;
+        background: #effaf3;
+        color: #31c369;
+        margin-top: 32px;
+        padding: 9px 9px;
+    }
+
+    .chat i{
+        width: 42px;
+        height: 42px;
+        font-size: 21px;
+        text-align: center;
+        line-height: 26px;
+        border-radius: 50%;
+        background: #effaf3;
+        color: #31c369;
+        margin-top: 11px;
+        padding: 9px 9px;
+    }
+
+.all-oca{
+    font-size: 22px;
+    color: #0e1133;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.choose-btn{
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #0e1133;
+    padding: 6px 35px;
+    font-size: 19px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.4s ease-out 0s;
+    background: transparent;
+    color: #0e1133;
+    border: 2px solid #e7eaef;
+    margin-top: 20px;
+}
+
+
+.choose-btn:hover{
+    background: #f8452d;
+    color: #fff;
+}
+
+
+.ann-uall{
+    background: #fff;
+    padding: 40px;
+    width: 22%;
+    width: 18%;
+    height: 55%;
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+}
+
+.ann-uall:hover{
+    box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%);
+}
+
+.Stor-btn{
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #0e1133;
+    padding: 6px 35px;
+    font-size: 19px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.4s ease-out 0s;
+    background: #f8452d;
+    color: #fff;
+    border: 2px solid #e7eaef;
+    margin-top: 20px;
+}
+
+
+.Bill-ed i{
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: #effaf3;
+    color:  #f8452d;
+    margin-top: 11px;
+    padding: 9px 9px;
+}
+
+
+.history-godddd{
+    font-size: 22px;
+    color: #0e1133;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.six-fic i{
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: #effaf3;
+    color:  #f8452d;
+    margin-top: 11px;
+    padding: 9px 9px;
+}
+
+.Cloud-stor i{
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: #effaf3;
+    color:  #f8452d;
+    margin-top: 11px;
+    padding: 9px 9px;
+}
+
+.Supp-ort{
+    font-size: 22px;
+    color: #0e1133;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.Get-day{
+    background: #fff;
+    padding: 40px;
+    width: 18%;
+    height: 62%;
+    margin: 20px;
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+}
+
+.Get-day:hover{
+    box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%);
+}
+
+.isl-sik i{
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: #effaf3;
+    color: #31c369;
+    margin-top: 11px;
+    padding: 9px 9px;
+}
+
+.Taj-gid i{
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: #effaf3;
+    color: #31c369;
+    margin-top: 11px;
+    padding: 9px 9px;
+}
+
+
+
+
+
+.INdus-Va{
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #0e1133;
+    padding: 6px 35px;
+    font-size: 19px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.4s ease-out 0s;
+    background: transparent;
+    color: #0e1133;
+    border: 2px solid #e7eaef;
+    margin-top: 20px;
+}
+
+
+
+.INdus-Va:hover{
+    background: #f8452d;
+    color: #fff;
+}
+
+    /* Choose section ends here  */
+
+
+     /* Frequently section starts here  */
+
+
+
+
+    /* Latest blog section starts here  */
+
+    .Latest-container{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 98px;
+    }
+    
+
+    .exel-me{
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: #0e1133;
+        margin: 0px;
+        font-size: 45px;
+        line-height: 53px;
+        text-align: center;
+        margin-top: 115px;
+    }
+
+
+    .ere-vee{
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 11px;
+        font-weight: 400;
+        color: #505056;
+        cursor: pointer;
+    }
+
+    .Latest-card img{
+        width: 113%;
+        height: auto;
+        transition: transform 0.4s;
+    }
+
+    .Latest-card img:hover{
+        transform: scale(1.1);
+    }
+
+    .blog li{
+        font-family: "Roboto", sans-serif;
+        display: inline-block;
+        font-size: 18px;
+        padding-right: 22px;
+        position: relative;
+        font-weight: 400;
+        color: #505056;
+    }
+
+  
+
+    .Ios{
+        font-family: "Roboto", sans-serif;
+        color: #0e1133;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 39px;
+        width: 455px;
+        height: auto;
+        cursor: pointer;
+        transition: 0.4s;
+    }    
+
+
+    .Ios:hover{
+        color: #007bff;
+    }
+
+    
+    .blog-btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #0e1133;
+    margin-top: 14px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    }
+
+
+    .blog-btn:hover{
+        color: #007bff;
+    }
+    
+    
+
+    /* Latest blog section ends here  */
+
+
+    /* Start your section starts here  */
+
+
+    .Start-container{
+        background-image: url(./img/back-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-left: 70px;
+        padding-top: 75px;
+        padding-bottom: 85px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 59%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    form input{
+        width: 50%;
+        height: 50px;
+        padding-left: 36px;
+        border-radius: 6px;
+        border: 0;
+        font-size: 20px;
+        margin-top: 32px;
+    }
+    .book-btn{
+        margin-left: 10px;
+        border-radius: 6px;
+        padding: 2px 31px;
+        background: #0e1133;
+        border: 0;
+        color: #fff;
+        line-height: 50px;
+        font-size: 21px;
+        cursor: pointer;
+    }
+
+
+    .Start-scer h2{
+        color: #fff;
+        font-size: 50px;
+        line-height: 60px;
+        padding-bottom: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        width: 78%;
+        height: auto;
+        margin-bottom: 9px;
+    }
+
+
+    .Start-scer p{
+        color: #fff;
+        opacity: 0.8;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0px;
+    }
+
+    .sel-phone img{
+            width: 115%;
+            height: auto;
+    }
+
+    
+
+    /* Start your section ends here  */
+
+
+
+    /* footer section starts here  */
+
+
+    .apper-container{
+        background: #eef1f6;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        margin-top: 67px;
+        height: 53vh;
+        display: flex;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .loptop img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .loptop h4{
+        padding-top: 25px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #505056;
+        margin: 0px;
+        width: 60%;
+        height: auto;
+        font-family: "Roboto", sans-serif;
+    }
+    
+
+
+    .ever-btn{
+        font-size: 21px;
+        font-weight: 500;
+        color: #0e1133;
+        margin-top: 15px;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .icon-contact i{
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        background: #fff;
+        color: #0e1133;
+        border-radius: 9px;
+        line-height: 38px;
+        margin-right: 6px;
+        font-size: 21px;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+
+    .icon-contact i:hover{
+        color: #fff;
+        background-color: #2b70fa;
+    }
+
+
+
+    .confom h3{
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+   
+
+    .confom ul li {
+        list-style: none;
+        color: #505056;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+    }
+
+    .confom ul li:hover{
+        color: #007bff;
+    }
+    
+    .ticl-cle h3{
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .ticl-cle ul li a{
+        color: #505056;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+    }
+
+
+    .ticl-cle li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+
+    .ticl-cle ul li  a:hover{
+        color: #007bff;
+    }
+
+    .ticl-cle ul li a{
+        text-decoration: none;
+    }
+
+
+    .tuoch h3{
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+
+    .tuoch ul li{
+        list-style: none;
+        color: #505056;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+    }
+
+
+    .Bel-ter{
+        width: 341px;
+        height: auto;
+    }
+
+
+
+    .cover-btn{
+        width: 309%;
+        height: auto;
+        margin-top: 110px;
+        gap: 20px;
+        padding-top: 57px;
+        border-top: 3px solid #e7eaef;
+    }
+    
+
+    .si-btn{
+        background: transparent;
+        color: #0e1133;
+        line-height: 40px;
+        padding: 6px 23px;
+        border-radius: 6px;
+        border-color: #e7eaef;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    
+    .si-btn:hover{
+        background-color: #fff;
+        color: #0e1133;
+    }
+    
+    .ri-btn{
+        line-height: 40px;
+        padding: 6px 23px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 20px;
+        margin-left: 10px;
+        transition: 0.7s;
+        color: #0e1133;
+        background-color: #fff;
+        border: 1px solid #fff;
+
+    }
+    
+    .ri-btn:hover{
+        background-color: transparent;
+        color: #0e1133;
+        border: 1px solid #e1e5ec;
+    }
+    
+
+ 
+     /* footer section ends here  */
+
+
+
+     @media (max-width:992px) {
+        .header-container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Welcome-container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 149vh;
+        }
+        
+
+        .Phone-con{
+            text-align: center;
+        }
+
+
+        .color-red{
+            height: 559px;
+            width: 490px;
+        }
+        
+
+        .Phone-img{
+            width: 276px;
+        }
+
+        .navbar ul li a{
+            font-size: 20px;
+        }
+
+        .Gat-sood{
+            font-size: 15px;
+        }
+
+        .icon-go i{
+            font-size: 17px;
+        }
+
+        .pere{
+            font-size: 19px;
+        }
+
+        .Mange-it{
+            margin: 0 auto;
+            font-size: 44px;
+            width: 559px;
+        }
+
+        .Hanky{
+            margin: 0 auto;
+            font-size: 19px;
+            margin-bottom: 21px;
+        }
+
+        .btn{
+            font-size: 16px;
+            line-height: 30px;
+            padding: 5px 23px;
+        }
+
+        .btn-go{
+            font-size: 16px;
+            line-height: 30px;
+            padding: 5px 23px;
+        }
+
+        #main-con{
+            width: 100%;
+            height: 159vh;
+        }
+
+        .Designed-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .Des-pere{
+            font-size: 35px;
+        }
+
+        .gned-good{
+            font-size: 17px;
+        }
+
+        .reted-icon{
+            width: 322px;
+            height: 331px;
+        }
+
+        .boon-icon {
+            width: 66px;
+            padding: 18px;
+        }
+
+        .one{
+            position: absolute;
+            top: 12%;
+            left: 55%;
+            font-size: 19px;
+            width: 26px;
+            height: 26px;
+        }
+
+        .Sear-ing{
+            font-size: 18px;
+        }
+
+        .Muck-er{
+            font-size: 15px;
+        }
+
+        .all_god{
+            width: 66px;
+            padding: 18px;
+        }
+
+        .two{
+            position: absolute;
+            top: 12%;
+            left: 55%;
+            font-size: 19px;
+            width: 26px;
+            height: 26px;
+        }
+
+        .betery{
+            width: 66px;
+            padding: 18px;
+        }
+
+        .mobile{
+            width: 66px;
+            padding: 18px;
+        }
+
+        .the{
+            position: absolute;
+            top: 12%;
+            left: 55%;
+            font-size: 19px;
+            width: 26px;
+            height: 26px;
+        }
+
+        .for{
+            position: absolute;
+            top: 12%;
+            left: 55%;
+            font-size: 19px;
+            width: 26px;
+            height: 26px;
+        }
+
+        .settings-container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 147vh;
+        }
+
+        .ba-img{
+            width: 89%;
+            margin-bottom: 37px;
+        }
+
+        .let{
+            font-size: 30px;
+            width: 282px;
+             font-weight: bold;
+        }
+
+        .car{
+            font-size: 21px;
+            margin-top: 17px;
+            width: 622px;
+        }
+
+        .btn-boy{
+            font-size: 15px;
+            padding: 0px 32px;
+            font-weight: bold;
+        }
+
+
+        .Stage-he{
+            width: 100%;
+            height: 102vh;
+        }
+
+        .left-img img{
+            display: none;
+        }
+
+        .qer-ies{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+
+        .nicked{
+            font-size: 17px;
+            margin: 0 auto;
+        }
+
+        .qury-ge{
+            text-align: center;
+        }
+
+        .chik i{
+
+            font-size: 15px;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            padding: 2px;
+        }
+    
+        
+        .solid i{
+            font-size: 15px;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .sync i{
+            font-size: 15px;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            padding: 2px;
+        }
+
+        .mate i{
+            font-size: 15px;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            padding: 2px;
+        }
+
+
+        .care{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .mucker{
+            font-size: 19px;
+            width: 214px;
+        }
+        
+
+        .min-btn{
+            font-size: 17px;
+            line-height: 43px;
+            border:1px solid #e7eaef;
+     }
+
+
+     .jason-container{
+        width: 100%;
+        height: 69vh;
+    }
+     
+
+    .good-img{
+        width: 60px;
+    }
+
+    .Response h4{      
+        font-size: 19px;
+    }
+
+    .Ail{
+        font-size: 14px;
+    }
+
+    .Hary{
+        font-size: 20px;
+        width: 603px;
+        margin-bottom: 18px;
+    }
+
+    .Meet-container{
+        width: 100%;
+        height: 160vh;
+    }
+
+
+    .Team-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 27px;
+    }
+
+    .code-bok img{
+        width: 80%;
+        margin-left: 48px;
+    }
+
+    .part-for img{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .Solut-boy img{
+        width: 80%;
+        margin-left: 48px;
+    }
+
+
+    .Test-go img{
+        width: 80%;
+        margin-left: 48px;
+    }
+
+
+    .Layoits-team{
+        width: 100%;
+        height: 176vh;
+    }
+    
+
+
+    .choosse-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ques-tion{
+
+    }
+
+    .Frequently-container{
+        width: 100%;
+        height: 354vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-container{
+
+    }
+
+    .Different-for{
+        width: 64%;
+        height: 93%;
+        margin: 0 auto;    
+    }
+
+    .Get-day{
+        width: 70%;
+        margin-left: 237px;
+        height: 92%;
+    }
+
+    .Cho-ose{
+        font-size: 29px;
+    }
+
+    .lyou-ts{
+        font-size: 20px;
+    }
+    
+
+
+    .ann-uall{
+        width: 71%;
+        height: 99%;
+    }
+
+    .spe-ed{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+
+    .said-to{
+        font-size: 22px;
+        }
+
+
+        .hea-byi{
+            font-size: 17px;
+        }
+
+        .mine-goood i{
+            font-size: 15px;
+            padding: 3px 7px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .chat i{
+            font-size: 15px;
+            padding: 3px 7px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .choose-btn{
+            font-size: 14px;
+            padding: 0px 27px;
+        }
+
+        .Bill-ed i{
+            font-size: 15px;
+            padding: 3px 7px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .Cloud-stor i{
+            font-size: 15px;
+            padding: 3px 7px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        
+        .six-fic i{
+            font-size: 15px;
+            padding: 3px 7px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .aro-und{
+            font-size: 18px;
+        }
+
+
+        .history-godddd{
+            font-size: 18px;
+        }
+
+
+        .all-oca{
+            font-size: 18px;
+        }
+
+        .Supp-ort{
+            font-size: 18px;
+        }
+
+
+        .Stor-btn{
+            font-size: 14px;
+            padding: 0px 27px;
+        }
+
+        .INdus-Va{
+            font-size: 14px;
+            padding: 0px 27px;
+        }
+
+
+        .Latest-container{
+            width: 100%;
+            height: 154vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            margin-left: 65px;
+        }
+        
+
+        .exel-me h3{
+            font-size: 28px;
+        }
+
+        .ere-vee{
+            font-size: 18px;    
+        }
+
+        .Latest-card img{
+            width: 70%;
+        }
+
+        .blog li{
+            font-size: 13px;
+        }
+
+        .Ios{
+            font-size: 20px;
+            width: 67%;
+        }
+
+
+        .blog-btn{
+            font-size: 18px;
+        }
+
+        .Start-container{
+            width: 83%;
+            height: 49vh;
+        }
+
+        .sel-phone img{
+            display: none;
+        }
+
+        .Start-scer h2{
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        form input{
+            width: 71%;
+            font-size: 18px;
+        }
+
+        .book-btn{
+            font-size: 17px;
+            padding: 0 30px;
+        }
+
+        .apper-container{
+            width: 100%;
+            height: 95vh;
+            display: grid;
+            position: relative;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .loptop img{
+            width: 33%;
+        }
+
+        .loptop{
+            margin-left: 177px;
+        }
+
+        .loptop h4{
+            
+            font-size: 16px;
+            width: 86%;
+        }
+
+        .ever-btn{
+            font-size: 15px;
+        }
+
+        .confom{
+            margin-left: 66px;
+        }
+
+        .confom h3{
+            font-size: 21px;
+        }
+
+        .confom ul li{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .icon-contact i{
+                font-size: 15px;
+                width: 35px;
+                height: 35px;
+                line-height: 34px;
+                margin-top: 21px;
+            }
+
+
+        .cover-btn{
+            position: absolute;
+            top: 64%;
+        }
+
+
+        .ticl-cle{
+            margin-left: 173px;
+            padding-bottom: 80%;
+        }
+        
+
+        .ticl-cle h3{
+            font-size: 22px;
+        }
+
+        .ticl-cle ul li a{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .tuoch h3{
+            font-size: 22px;
+        }
+
+        .tuoch{
+            margin-left: 60px;
+        }
+
+        .tuoch ul li{
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .ri-btn{
+            font-size: 15px;
+            padding: 2px 37px;
+        }
+
+
+        .si-btn{
+            font-size: 15px;
+            padding: 2px 37px;
+        }
+        
+}
+
+
+@media (max-width:768px) {
+    .header-container{
+
+    }
+    .img-go{
+        width: 22%;
+    margin-top: 27px;
+    }
+
+    .navbar ul li a{
+        font-size: 17px;
+    }
+
+    .pere{
+        font-size: 15px;
+    }
+
+    .Welcome-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Phone-con{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 33%;
+    margin: 0 auto;
+}
+
+.btn-go{
+    width: 38%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 5px 23px;
+}
+
+.Hanky{
+    font-size: 16px;
+}
+
+.color-red{
+    width: 400px;
+    height: 400px;
+}
+
+.Phone-img{
+    width: 64%;
+}
+
+.food-img{
+    position: absolute;
+    left: 70%;
+    top: 38%;
+    width: 40%;
+}
+
+
+.Mange-it{
+    font-size: 31px;
+}
+    
+
+#main-con{
+    width: 100%;
+    height: 20%;
+}
+    
+
+.Designed-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.Des-pere{
+    font-size: 31px;
+}
+
+.gned-good{
+    font-size: 16px;
+}
+
+.reted-icon {
+    height: 34vh;
+    width: 62%;
+}
+
+.boon-icon{
+    width: 62px;
+    padding: 17px;
+}
+
+.one{
+    top: 17%;
+    left: 53%;
+}
+
+.Sear-ing{
+    font-size: 21px;
+}
+
+.two{
+    top: 17%;
+}
+
+.the{
+    top: 18%;
+    left: 53%;
+}
+
+
+.for{
+    left: 53%;
+    top: 17%;
+}
+
+
+.Muck-er{
+    font-size: 18px;
+}
+
+
+.Stage-he{
+    width: 100%;
+    height: 20%;
+}
+
+
+.time-good{
+    display: flex;
+    flex-direction: column;
+}
+
+.qury-ge h2{
+}
+
+.qer-ies{
+    font-size: 27px;
+}
+
+.nicked{
+    width: 51%;
+    font-size: 15px;
+}
+
+
+.chik i{
+    top: 4%;
+    left: -123%;
+}
+
+.solid i{
+    position: absolute;
+    top: 26%;
+    left: -11%;
+}
+
+
+.sync i{
+    top: 48%;
+    left: -11%;
+}
+
+.mate i{
+    top: 71%;
+    position: absolute;
+    left: -11%;
+}
+
+
+.mucker{
+    width: 100%;
+}
+
+
+.jason-container{
+    width: 100%;
+    height: 67vh;
+}
+
+.Hary{
+    width: 55%;
+    font-size: 21px;
+}
+
+.starts{
+    font-size: 17px;
+}
+
+
+.Team-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Meet-container{
+    width: 100%;
+    height: 298vh;
+}
+
+.our{
+    font-size: 41px;
+}
+
+.style{
+    font-size: 17px;
+}
+
+.code-bok img{
+    width: 395px;
+}
+
+.part-for img{
+    width: 395px;
+}
+
+.Test-go img{
+    width: 395px;
+}
+
+.Solut-boy img{
+    width: 395px;
+}
+
+.choosse-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.Layoits-team{
+    height: 233vh;
+    width: 100%;
+}
+
+
+.Different-for{
+    width: 52%;
+    height: 100%;
+}
+
+
+.ann-uall{
+    margin: 0 auto;
+    width: 52%;
+    height: 100%;
+    margin-top: 26px;
+}
+
+
+
+.Get-day{
+    margin: 0 auto;
+    width: 52%;
+    height: 100%;
+    margin-top: 62px;
+}
+
+.Cho-ose{
+    font-size: 40px;
+}
+
+.spe-ed{
+    font-size: 22px;
+}
+
+
+.said-to{
+    font-size: 30px;
+}
+
+.hea-byi{
+    font-size: 16px;
+}
+
+.mine-goood i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+.chat i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+
+.Bill-ed i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+
+
+.Cloud-stor i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+.six-fic i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+.isl-sik i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+.Taj-gid i{
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    padding: 1px 6px;
+}
+
+.aro-und{
+    font-size: 16px;
+}
+
+.all-oca {
+    font-size: 16px;
+}
+
+.history-godddd{
+    font-size: 16px;
+}
+
+.Supp-ort{
+    font-size: 16px;
+}
+
+.Latest-container{
+    height: 297vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.Latest-card img{
+    width: 74%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.blog li{
+    margin-left: 23px;
+}
+
+
+.exel-me h3{
+    font-size: 37px;
+}
+
+.ere-vee{
+    font-size: 15px;
+}
+
+.Ios{
+    width: 82%;
+    margin-left: 23px;
+}
+
+
+.blog-btn{
+    margin-left: 23px;
+    font-size: 17px;
+}
+
+
+.Start-container{
+    width: 64%;
+    height: 20%;
+    position: relative;
+}
+
+
+.Start-scer h2{
+    font-size: 35px;
+}
+
+
+.Start-scer p{
+    font-size: 17px;
+}
+
+
+form input{
+    width: 49%;
+    font-size: 17px;
+}
+
+
+.apper-container{
+    width: 100%;
+    height: 144vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.loptop{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.loptop img{
+    width: 28%;
+}
+
+.loptop h4{
+    font-size: 15px;
+    width: 92%;
+}
+
+
+.confom{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.confom h3{
+    font-size: 18px;
+}
+
+
+.confom ul li{
+    font-size: 14px;
+}
+
+
+.ticl-cle{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.tuoch{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -80%;
+}
+
+.cover-btn{
+    position: absolute;
+    top: 87%;
+}
+
+
+.ri-btn{
+    top: -90%;
+    left: -2%;
+    position: absolute;
+}
+
+
+.si-btn{
+    top: -93%;
+    left: 9%;
+    position: absolute;
+}
+
+}
+
+
+@media (max-width:600px) {
+    .Mange-it{
+        width: 74%;
+        font-size: 39px;
+    }
+
+    .btn-go{
+        width: 40%;
+    }
+
+
+    .Phone-img {
+        width: 72%;
+    }
+
+
+    .food-img{
+        position: absolute;
+        width: 125px;
+        left: 68%;
+        top: 42%;
+    }
+
+    .reted-icon{
+        width: 77%;
+    }
+
+    .text-con{
+        margin-left: 100px;
+    }
+
+    .car{
+        font-size: 19px;
+        width: 73%;
+    }
+
+    .nicked{
+        width: 67%;
+    }
+
+    .care{
+        font-size: 18px;
+    }
+
+
+    .btn{
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .btn-go{
+        width: 57%;
+        font-size: 15px;
+    }
+
+    .mucker{
+        font-size: 16px;
+    }
+
+    .chik i{
+        position: absolute;
+        left: -144%;
+        top: 3%;
+    }
+
+
+    .Hary{
+        width: 65%;
+        font-size: 20px;
+    }
+
+
+    .Different-for{
+        width: 69%;
+    }
+
+    .ann-uall{
+        width: 69%;
+    }
+
+    .Get-day{
+        width: 69%;
+    }
+
+    .Latest-container{
+        height: 217vh;
+    }
+
+
+    .Start-container{
+        width: 91%;
+    margin-top: 36px;
+    }
+
+    .navbar ul li a{
+        font-size: 15px;
+    }
+
+
+    .header-container{
+        width: 100%;
+    }
+}
+
+    

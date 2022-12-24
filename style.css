@@ -711,7 +711,7 @@ html{
 
 
 .Meet-container{
-    height: 52vh;
+    height: 57vh;
     width: 100%;
 }
 
@@ -834,9 +834,24 @@ html{
 
     .Layoits-team{
         width: 100%;
-        height: 85vh;
+        height: 100vh;
         background: #eef1f6;
         padding-top: 20px;
+    }
+
+
+    .mo-st{
+        position: absolute;
+        top: -1%;
+        left: 61%;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        background: #f8452d;
+        line-height: 28px;
+        padding: 0 18px;
+        border-radius: 30px;
+        box-shadow: 0px 10px 20px 0px rgb(183 30 10 / 30%);
     }
     
 
@@ -865,8 +880,9 @@ html{
     .Different-for {
         background: #fff;
         padding: 40px;
-        width: 18%;
-        height: 55%;
+        width: 20%;
+        height: 70%;
+        margin: 20px;
         margin: 20px;
         border-radius: 6px;
         position: relative;
@@ -970,9 +986,8 @@ html{
 .ann-uall{
     background: #fff;
     padding: 40px;
-    width: 22%;
-    width: 18%;
-    height: 55%;
+    width: 20%;
+    height: 70%;
     border-radius: 6px;
     position: relative;
     transition: all 0.3s ease-out 0s;
@@ -1065,8 +1080,8 @@ html{
 .Get-day{
     background: #fff;
     padding: 40px;
-    width: 18%;
-    height: 62%;
+    width: 20%;
+    height: 79%;
     margin: 20px;
     border-radius: 6px;
     position: relative;
@@ -1181,7 +1196,7 @@ html{
     }
 
     .Latest-card img{
-        width: 113%;
+        width: 100%;
         height: auto;
         transition: transform 0.4s;
     }
@@ -1257,8 +1272,8 @@ html{
         position: relative;
         overflow: hidden;
         border-radius: 10px;
-        width: 59%;
-        height: 35vh;
+        width: 55%;
+        height: 47vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1892,7 +1907,7 @@ html{
 
 
     .ann-uall{
-        width: 71%;
+        width: 92%;
         height: 99%;
     }
 
@@ -2151,6 +2166,14 @@ html{
         font-size: 17px;
     }
 
+    .Cho-ose{
+        font-size: 26px;
+    }
+
+    .lyou-ts{
+        font-size: 17px;
+    }
+
     .pere{
         font-size: 15px;
     }
@@ -2345,11 +2368,11 @@ html{
 }
 
 .our{
-    font-size: 41px;
+    font-size: 33px;
 }
 
 .style{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .code-bok img{
@@ -2411,7 +2434,7 @@ html{
 
 
 .said-to{
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .hea-byi{
@@ -2628,6 +2651,7 @@ form input{
     .Mange-it{
         width: 74%;
         font-size: 39px;
+        line-height: 46px;
     }
 
     .btn-go{
@@ -2726,6 +2750,261 @@ form input{
     .header-container{
         width: 100%;
     }
+}
+
+
+@media (max-width:414px) {
+    .navbar ul li a{
+        font-size: 14px;
+        }
+
+
+        .Welcome-container{
+            height: 102vh;
+        }
+
+        .Welcome-container h5{
+            
+    font-size: 15px;
+        }
+
+        .Mange-it{
+            font-size: 25px;
+            line-height: 34px;
+        }
+
+        .Hanky{
+            font-size: 14px;
+            width: 68%;
+        }
+
+        .Des-pere{
+            font-size: 21px;
+            line-height: 44px;
+            margin-top: 54px;
+        }
+
+        .gned-good{
+            font-size: 15px;
+        }
+
+        .reted-icon{
+            width: 91%;
+                }
+
+        .Muck-er{
+            width: 109%;
+            font-size: 17px;
+        }
+
+
+        .settings-container{
+            
+    height: 101vh;
+
+        }
+
+        .ba-img{
+            margin-left: 39px;
+        }
+
+        .text-con{
+            margin-left: 33px;
+        }
+
+        .let{
+            line-height: 40px;
+        }
+
+        .qury-ge{
+            
+             margin-left: -27px;
+        }
+
+        .qer-ies{
+            font-size: 21px;
+        }
+
+        .qury-ge h2{
+            font-size: 18px;
+        }
+
+        .nicked{
+            font-size: 14px;
+            width: 293px;
+            text-align: justify;
+            margin-left: 56px;
+        }
+
+        .time-good{
+            margin-left: -19px;
+        }
+
+        .chik{
+            margin-bottom: -47px;
+        }
+
+        .sync{
+            margin-top: -47px;
+                }
+
+        .mate{
+            margin-top: -45px;
+        }
+
+        .solid i{
+            top: 23%;
+        }
+
+        .sync i{
+            top: 43%;
+        }
+
+        .mate i{
+            top: 62%;
+        }
+
+        .Hary{
+            
+    width: 84%;
+
+        }
+
+
+        .our{
+            font-size: 20px;
+        }
+
+
+        .style{
+            font-size: 13px;
+        }
+
+        .code-bok img{
+            width: 315px;
+            margin-left: 19px;
+        }
+
+        .part-for img{
+            width: 315px;
+            margin-left: 19px;
+        }
+
+        .Test-go img{
+            width: 315px;
+            margin-left: 19px;
+        }
+
+        .Solut-boy img{
+            width: 315px;
+            margin-left: 19px;
+        }
+
+        .Meet-container{
+            height: 209vh;
+        }
+
+        .Cho-ose{
+            line-height: 21px;
+            font-size: 25px;
+        }
+
+        .lyou-ts{
+            font-size: 16px;
+        }
+
+
+        .Different-for{
+            width: 88%;
+        }
+
+        .ann-uall{
+            width: 88%;
+        }
+
+        .Get-day{
+            width: 88%;
+        }
+
+        .Layoits-team{
+            height: 186vh;
+        }
+
+
+        .exel-me h3{
+            font-size: 26px;
+            line-height: 21px;
+        }
+
+
+        .ere-vee{
+            font-size: 15px;
+        }
+
+        .Latest-card img{
+      
+        margin: 0 auto;
+        margin-left: -32px;
+        width: 355px;
+
+        }
+
+        .blog{
+            margin-left: -50px;
+        }
+
+        .Ios{
+            margin-left: -24px;
+        }
+
+        .blog-btn{
+            margin-left: -26px;
+        }
+
+
+
+        .Latest-card{
+            
+
+            margin-bottom: -187px;
+
+        }
+
+
+        .Start-container{
+            width:90%;
+        }
+
+
+        .Start-scer h2{
+            width: 100%;
+            margin-left: -43px;
+        }
+        
+
+        .Start-scer p{
+            margin-left: -42px;
+        }
+
+        form input{
+            width: 90%;
+            margin-left: -38px;
+            margin-bottom: 13px;
+        }
+
+
+        .book-btn{
+            margin-left: -33px;
+        }
+
+
+        .loptop h4{
+            
+    text-align: center;
+    margin: 0 auto;
+
+        }
+        
 }
 
     
